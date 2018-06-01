@@ -1,93 +1,137 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
+    "name": "Nicolas Lehman",
+    "label": "Developer, Enthusiast",
     "picture": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://johndoe.com",
-    "summary": "A summary of John Doe...",
+    "email": "lehmannic22@gmail.com",
+    "phone": "289 689 8996",
+    "website": "https://PlayerVM.xyz",
+    "summary": "Experienced leader with a demonstrated history of team management and technical skills. Adept at computer configuration, web development, document drafting, and self-learning. Highly motivated and eager to learn young professional completing a Bachelor’s Degree in Computer Engineering from McMaster University.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "CA",
+      "region": "Ontario"
     },
-    "profiles": [{
-      "network": "Twitter",
-      "username": "john",
-      "url": "http://twitter.com/john"
-    }]
+    "profiles": []
   },
-  "work": [{
-    "company": "Company",
-    "position": "President",
-    "website": "http://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description...",
-    "highlights": [
-      "Started the company"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "website": "http://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description...",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "University",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "gpa": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "website": "http://publication.com",
-    "summary": "Description..."
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "Javascript"
-    ]
-  }],
-  "languages": [{
-    "name": "English",
-    "level": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference..."
-  }]
+  "work": [
+    {
+      "company": "McMaster University",
+      "position": "Human Resources Assistant and Website Support",
+      "website": "",
+      "startDate": "May 2017",
+      "endDate": "April 2018",
+      "summary": "I provide website and content support for Human Resources Services at McMaster University. In addition, I format and create artwork for documents and presentations published and presented by the Organizational Development team.",
+      "highlights": []
+    },
+    {
+      "company": "SEDS Canada",
+      "position": "Chair",
+      "website": "http://seds.ca",
+      "startDate": "April 2017",
+      "endDate": "April 2018",
+      "summary": "I have led the organization through a re-branding enabling us to elaborate our mission and long-term vision. I cultivate mutually-beneficial partnerships with organizations in the space sector and work with them to offer our student members unique opportunities to gain experience in the Canadian governmental, industrial and institutional space sectors. Additionally, I develop and maintain our website and occasionally design graphics.",
+      "highlights": []
+    },
+    {
+      "company": "McMaster University",
+      "position": "Senior Student Consultant",
+      "website": "",
+      "startDate": "May 2015",
+      "endDate": "September 2016",
+      "summary": "I worked as part of a small group that managed the larger Student Consultant (SC) team tasked with maintaining the student computer labs on campus. Our team also reviewed resumes and conducted interviews to hire the SC team and facilitated their training.",
+      "highlights": [
+        "Accomplishment"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "CoderDojo",
+      "position": "Teacher",
+      "website": "https://coderdojo.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": [
+        "Awarded 'Teacher of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "McMaster Engineering",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor's of Engineering",
+      "startDate": "September 2013",
+      "endDate": "May 2018",
+      "gpa": "",
+      "courses": [
+        ""
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "French",
+      "fluency": "Conversational"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Video Games",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    },
+    {
+      "name": "Electronics",
+      "keywords": []
+    },
+    {
+      "name": "Programming",
+      "keywords": []
+    },
+    {
+      "name": "Reading",
+      "keywords": []
+    }
+  ],
+  "references": []
 }
