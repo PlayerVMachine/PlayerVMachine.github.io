@@ -1,5 +1,5 @@
 ---
 layout: cv
-title: cv
+title: Resume
 permalink: /cv/
 ---
