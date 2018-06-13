@@ -26,6 +26,8 @@ t:
 
 # Google Fonts
 google_fonts:
+  - name: "Roboto Mono"
+    weights: "400,400i,500,500i"
   - name: "Fira Sans"
     weights: "400,400i,600,600i"
   - name: "Montserrat"
@@ -40,4 +42,3 @@ navigation_pages:
   - hardware.md
   - thoughts.md
   - artistic.md
-  - cv.md

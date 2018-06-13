@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Artistic Attempts
+title: Maybe Art
 taxonomy: artistic
 permalink: /artistic/
 ---
