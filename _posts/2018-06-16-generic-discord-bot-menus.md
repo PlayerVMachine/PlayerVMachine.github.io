@@ -56,4 +56,34 @@ This line is straight forward we await the creation of the menu message the bot 
     }, 10000)
 ```
 
-So here we handle the menu timing out if the user hasn't replied in a specified interval, in this case 10 seconds.
+So here we handle the menu timing out if the user hasn't replied in a specified interval, in this case 10 seconds. That's done using Node's `setTimeout(callback, delay)` you can read up on timers in Node [here](https://nodejs.org/api/timers.html). Inside the callback we remove the event listener that we will be creating a bit further down, and delete the menu message.
+
+```javascript
+    let timeoutmsg = await bot.createMessage(msg.channel.id, 'Menu timed out.')
+    setTimeout(() => {
+        timeoutmsg.delete('Menu Timeout.')
+    }, 4000)
+```
+
+You can optionally Send a message letting the user now the menu timed out, that's why it disappeared and then again using setTimeout you can delete that message too. You can include as much or little of this portion as you like, whatever you feel gives the best experience.
+
+```javascript
+    const handleReply = async (reply) => {
+        if (reply.author.id == msg.author.id) {
+
+            clearTimeout(menuTimeout)
+            bot.removeListener('messageCreate', handleReply)
+
+            menuMessage.delete('Menu close.') // delete first question
+            responseHandler(reply)
+        }
+    }
+```
+
+Next up we define the callback function that will handle getting the user's response and doing something with it. The reason we need to define the callback function is so that we can remove the event listener once the reply is recieved. `removeListener(eventname, listener)` requires that the handler function (listener) be defined so it can't be an anonymous function. First we check if the message that triggered our event listener came from the user who called the original function and if so we again remove the listener for a reply from the user and clear the timeout we defined above since the user has replied. Then we delete the menu message and pass the reply message to the responseHandler function passed to this function that will do whatever you want to do with the reply. If the message that triggered the listener isn't from the original user than we do nothing and continue to wait for the timeout or a reply from the original user.
+
+```javascript
+bot.on('messageCreate', handleReply)
+```
+
+Lastly we register the event listener that will listen for messages created and call the handleReply funtion whenever a message is sent and the menu is open.
