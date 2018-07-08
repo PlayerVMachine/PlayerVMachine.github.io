@@ -6,6 +6,5 @@ permalink: /media-central
 
 ---
 
-# Media Central
+Media Central is a bot that provides game statistics, posting/mailbox features, Spotify info, reminders, and notes features with more on the way!
 
-Media Central is a Discord
