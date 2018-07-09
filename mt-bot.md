@@ -8,8 +8,8 @@ permalink: /media-central
 
 Media Central is a bot that provides game statistics, posting/mailbox features, Spotify info, reminders, and notes features with more on the way!
 
-<h4 style="color:#5DF1B2"> Game Statistics</h4>
-<b style="color:#D34043">Supported Games<b>: Overwatch, Rainbow Six Siege, PUBG, League (applying for production API key)
+#### Game Statistics
+<span style="color:#D34043">**Supported Games**</span>: Overwatch, Rainbow Six Siege, PUBG, League (applying for production API key)
 
 **Coming Soon / Planned**: World of Warcraft, Diablo 3, Star Craft 2, Wargamming.net Titles, Battlerite, Fortnite
 
