@@ -100,7 +100,30 @@ Unsubscribe from a user to stop receiving their posts.
 m.subscriptions|mysubs
 ```
 View a list of your current subscriptions.
+
 <h5 style="color:#D34043">Spotify</h5>
+Search for songs, get the top new releases of the week on demand or weekly in your mailbox, suggested playlists.
+
+```
+m.spotify search|lookup <song name>
+```
+Search for a song by name on Spotify, returns top 3 results.
+```
+m.spotify new|releases <page #>
+```
+Browse the top 100 new relases 10 at a time using the optional page number.
+```
+m.spotify album|adetail <new release #>
+```
+Get a more detailed album view for an album on the top 100 new releases list using its position number
+```
+m.spotify playlists|plists|pl
+```
+Get 5 playlist suggestions
+```
+m.spotify sub|unsub
+```
+Subscribe or Unsubscribe to the top 10 release list in your mailbox every Friday.
 
 
 <h5 style="color:#D34043">Notes and Reminders</h5>
