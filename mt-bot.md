@@ -26,13 +26,13 @@ Gets a complete list of stats for a user's given hero if they have played them.
 
 **Rainbow Six Siege**:
 
-```m.r6 cas|casual <username> pc|xbl|psn```
+`m.r6 cas|casual <username> pc|xbl|psn`
 Gets a user's stats for casual play.
-```m.r6 rnk|ranked <username> pc|xbl|psn```
+`m.r6 rnk|ranked <username> pc|xbl|psn`
 Gets a user's stats for ranked play.
-```m.r6 topop|operator <username> pc|xbl|psn```
+`m.r6 topop|operator <username> pc|xbl|psn`
 Gets a user's stats for their most played operator. Add a number at the end to move trough the list.
-```m.r6 misc|general <username> pc|xbl|psn```
+`m.r6 misc|general <username> pc|xbl|psn`
 Gets additional stats on a user unrelated to game mode.
 
 **PUBG**:
