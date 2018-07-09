@@ -18,7 +18,7 @@ Additionally you can set RSS webhook feeds for news on each game Media Central p
 _Insert Examples Here_
 
 <h5 style="color:#D34043">Mailbox Module</h5>
-You might be asking yourself "what's this?" or "owo what's this?" _(if you think in anime)_. With Media Central you can subsribe to users and (if configured) server announcement channels and get their posts delivered to your mailbox which you can check at any time!
+You might be asking yourself "what's this?" or maybe "OwO what's this?". With Media Central you can subsribe to users and (if configured) server announcement channels and get their posts delivered to your mailbox which you can check at any time!
 
 _Command List Here_
 
