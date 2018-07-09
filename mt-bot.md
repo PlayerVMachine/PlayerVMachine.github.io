@@ -8,7 +8,7 @@ permalink: /media-central
 
 Media Central is a bot that provides game statistics, posting/mailbox features, Spotify info, reminders, and notes features with more on the way!
 
-#### Game Statistics
+<h4 style="color:#4BC0FE"> Game Statistics</h4>
 **Supported Games**: Overwatch, Rainbow Six Siege, PUBG, League (applying for production API key)
 
 **Coming Soon / Planned**: World of Warcraft, Diablo 3, Star Craft 2, Wargamming.net Titles, Battlerite, Fortnite
@@ -22,9 +22,15 @@ You might be asking yourself "what's this?" or "owo what's this?" _(if you think
 
 _Command List Here_
 
+#### Spotify
+
 #### Notes and Reminders
 Set reminders for yourself that you can view and cancel at anytime.
 
 Make notes for yourself from anywhere Media Central can read messages and it will pin your notes in your DM chat with the bot. You can then refer to pins to see your notes or use the list command. You can also delete notes by unpinning the message or using the unnote command.
 
-#### Spotify
+#### More community focused features coming soon!
+I have a few things in mind that I'm working on but I'd love to hear from you if you have any suggestions!
+
+Invite Media Central to your server now! [Invite](https://discordapp.com/api/oauth2/authorize?client_id=464529935315370004&permissions=536881152&scope=bot)
+Join the support server []()
