@@ -58,8 +58,8 @@ m.pubg stats <region> <username> <game-mode>
 ```
 Gets a player's statistics for a given game mode and region.
 
-Modes: solo, solo-fpp, duo, duo-fpp, squad, squad-fpp
-Regions: xbox-as, xbox-eu, xbox-na, xbox-oc, pc-krjp, pc-jp, pc-na, pc-eu, pc-ru, pc-oc, pc-kakao, pc-sea, pc-sa, pc-as
+<p>Modes: solo, solo-fpp, duo, duo-fpp, squad, squad-fpp</p>
+<p>Regions: xbox-as, xbox-eu, xbox-na, xbox-oc, pc-krjp, pc-jp, pc-na, pc-eu, pc-ru, pc-oc, pc-kakao, pc-sea, pc-sa, pc-as</p>
 
 **LoL**:
 _Not yet publicly available_
@@ -68,6 +68,18 @@ _Not yet publicly available_
 m.lol user|summoner <in game name>
 ```
 Get basic League of Legends user stats like rank and LP.
+
+**Game News Webhooks**:
+The following commands require the Manage Channels permission to use.
+
+```
+m.news set|sub
+```
+Creates a webhook in the channel the command is used in if a subscription is chosen using reactions
+```
+m.news unset|unsub
+```
+Shows current subscriptions and use reactions to cancel them
 
 <h5 style="color:#D34043">Mailbox Module</h5>
 You might be asking yourself "what's this?" or maybe "OwO what's this?". With Media Central you can subsribe to users and (if configured) server announcement channels and get their posts delivered to your mailbox which you can check at any time!
@@ -130,11 +142,75 @@ Subscribe or Unsubscribe to the top 10 release list in your mailbox every Friday
 
 Set reminders for yourself that you can view and cancel at anytime.
 
-Make notes for yourself from anywhere Media Central can read messages and it will pin your notes in your DM chat with the bot. You can then refer to pins to see your notes or use the list command. You can also delete notes by unpinning the message or using the unnote command.
+```
+m.remind me|set <reminder text> in <time><unit>
+```
+Set a reminder, the bot will DM you your reminder at the specified time unit is one of m, h, d, w, M, y from minutes to years default if no unit set is minutes.
+```
+m.remind view|list
+```
+
+Make notes for yourself from anywhere Media Central can read messages.
+
+```
+m.nts make|note|create <text> <attachments>
+```
+Make a note for yourself and GSC will pin it in your DMs with it. Supports message file attachments.
+```
+m.nts view|list|get
+```
+Gets a list of your current notes.
+```
+m.nts delete|rem|unnote <list position>
+```
+Using the position number of a note from the list command you can delete a note. Unpinning it will also remove it from the list.
+
+<h5 style="color:#D34043">Announcement Type Channels</h5>
+
+The following commands require the Manage Channels Permission to be used.
+
+There are 3 types of channels you can configure: Announcements, Spotify, and Stream.
+
+__Announcements__: Users will be able to subscribe to this channel once set and receive posts sent in this channel to their mailbox, no pinging required!
+__Spotify__: This channel will receive a post every Friday with the week's top 10 releases.
+__Stream__: This channel will recieve posts everytime a server member goes live on Twitch
+```
+m.chan set ann|spotify|stream <channel>
+```
+Sets the specified channel as one of the above types.
+
+```
+m.chan unset ann|spotify|streams
+```
+Unsets the previously configured channel.
+
+<h5 style="color:#D34043">Miscellaneous</h5>
+
+```
+m.weather <location> C|F
+```
+Get the current weather for a location, Fahrenheit is default.
+```
+m.forecast <location> C|F
+```
+Get the 3 day forecast for for a location
+```
+m.clean <1 - 50>
+```
+Removes up to the specified number of DMs from the bot to help you clean up.
+```
+m.ping
+```
+No one asks how the bot is only ping.
+```
+m.prefix <new prefix>
+```
+Set a new prefix for the bot, no spaces, 10 characters or less. (Requires the Manage Server permission)
 
 <h5 style="color:#D34043">More community focused features coming soon!</h5>
 
 I have a few things in mind that I'm working on but I'd love to hear from you if you have any suggestions!
 
 Invite Media Central to your server now! [Invite](https://discordapp.com/api/oauth2/authorize?client_id=464529935315370004&permissions=536881152&scope=bot)
-Join the support server []()
+Join the support [server](https://discord.gg/NNFnjFA)
+Like the bot consider [buying me a coffee](https://buymeacoff.ee/playervm).
