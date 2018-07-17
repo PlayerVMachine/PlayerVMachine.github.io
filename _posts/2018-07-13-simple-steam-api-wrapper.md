@@ -1,7 +1,7 @@
 ---
-title: Simple Steam API Wrapper
+title: Simple Steam API Wrapper for Node.js
 categories: code
-date: 2018-06-16 18:00:00 -1700
+date: 2018-07-13 18:00:00 -1700
 ---
 
 #### Get all the info you can from Steam

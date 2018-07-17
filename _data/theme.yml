@@ -39,7 +39,7 @@ google_fonts:
 
 navigation_pages:
   - coding.md
-#  - hardware.md
+  - hardware.md
 #  - thoughts.md
   - artistic.md
   - mt-bot.md
