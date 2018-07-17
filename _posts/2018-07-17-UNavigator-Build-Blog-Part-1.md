@@ -1,8 +1,10 @@
 ---
-title: Ultrasonic Mapping and Navigation Robot Build Log (Part 1)
+title: Ultrasonic Mapping and Navigation Robot
 categories: hardware
 date: 2018-07-17 16:00:00 -1700
 ---
+
+### Build Log (Part 1)
 
 A couple years ago now I started wondering about the feasibilty of near real-time piloting of unmanned vehicles on the Moon and Mars. I think it would be a more visceral experience to sitdown and put on a VR headset and feel like you're at the weel of a vehicle on another planet than looking at maps and plotting the vehicles next 8 moves and waiting to find out how those moves panned out. In video game terms I think it would be interesting to transition the game of remote exploration from turn-based startegy to a first-person perspective. 
 
