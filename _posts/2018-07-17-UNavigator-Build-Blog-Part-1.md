@@ -1,5 +1,5 @@
 ---
-Ultrasonic Mapping and Navigation Robot Build Log (Part 1)
+title: Ultrasonic Mapping and Navigation Robot Build Log (Part 1)
 categories: hardware
 date: 2018-07-17 16:00:00 -1700
 ---
