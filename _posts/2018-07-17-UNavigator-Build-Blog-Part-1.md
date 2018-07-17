@@ -15,7 +15,7 @@ The next major barrier is telemetry, livestreaming video from the Moon or furthe
 This sounds good on paper to me at least but I need to see if this holds up in the real world at all. The first step is to generate the 3d coordinate data and try to plot it on a computer. I imagine that LIDAR would be well suited to this task but I don't have a LIDAR sensor sitting around so I'll start with an ultrasonic sensor and see what I can get out of that.
 
 Here's my inital setup:
-[IMAGE 1]
+<img src="Inital-setup.JPG" width="512">
 
 An HC-SR04 Ultrasonic Sensor mounted on two HS-422 Servo Motors to pitch and yaw the sensor all controlled by an Arduino UNO powered by USB via my laptop to get started.
 

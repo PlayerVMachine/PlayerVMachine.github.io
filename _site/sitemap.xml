@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/jekyll/update/2018/05/29/welcome-to-jekyll.html</loc>
-<lastmod>2018-05-29T15:39:40-04:00</lastmod>
+<loc>/code/2018/06/16/generic-discord-bot-menus.html</loc>
+<lastmod>2018-06-16T21:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/cv/</loc>
+<loc>/code/2018/07/14/simple-steam-api-wrapper.html</loc>
+<lastmod>2018-07-14T07:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>/artistic/</loc>
+</url>
+<url>
+<loc>/code-samples/</loc>
+</url>
+<url>
+<loc>/hardware/</loc>
+</url>
+<url>
+<loc>/</loc>
+</url>
+<url>
+<loc>/media-central</loc>
+</url>
+<url>
+<loc>/thoughts/</loc>
 </url>
 </urlset>

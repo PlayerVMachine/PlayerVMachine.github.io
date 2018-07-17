@@ -1,6 +1,11 @@
 var store = [{
-        "title": "Welcome to Jekyll!",
-        "excerpt":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when...","categories": ["jekyll","update"],
+        "title": "Generic Discord Bot Menus",
+        "excerpt":"Making Bot Menus! When developing a Discord bot you might come across the need to make text based menus for your users to navigate through and make choices. Depending on the levels of depth in your menu and the number of commands that require menus it can be tedious and...","categories": ["code"],
         "tags": [],
-        "url": "http://localhost:4000/jekyll/update/2018/05/29/welcome-to-jekyll.html"
+        "url": "/code/2018/06/16/generic-discord-bot-menus.html"
+      },{
+        "title": "Simple Steam API Wrapper for Node.js",
+        "excerpt":"Get all the info you can from Steam Start by getting an API key from https://steamcommunity.com/dev, then you can drop in my steam-api-wrapper to your project, npm install axios (used to make requests to the Steam API) and you’re all set to get JSON data back from all the endpoints...","categories": ["code"],
+        "tags": [],
+        "url": "/code/2018/07/14/simple-steam-api-wrapper.html"
       }]
