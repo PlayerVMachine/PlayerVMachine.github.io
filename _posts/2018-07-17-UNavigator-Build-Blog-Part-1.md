@@ -20,6 +20,7 @@ An HC-SR04 Ultrasonic Sensor mounted on two HS-422 Servo Motors to pitch and yaw
 Since I can control the pitch and yaw of the sensor I figured reading in the data as spherical coordinate points then converting to cartesian for the graphing makes the most sence. The yaw of the sensor is theta, the pitch is phi and the distance measured by the sensor is ro. Due to the way the servo motors and the mounting brackets work together the scan area is too constrained to get a full 360 degree 3D scan but I don't need that to get started. So I chose a range of 20 - 140 degrees theta and 160 - 180 degrees phi to give a 20 degree by 120 degree scan area.
 
 I created a few different sample 'terrains' for the sensor to scan and to try plotting them in Matlab:
+<img src="SetupSamples.png" width="512">
 
 A simple Python script reads the data fro the Arduino into a .csv file:
 ```python
@@ -37,16 +38,16 @@ with open ('scan.csv', 'w') as csvfile:
 ```
 
 Then I import the files into Matlab as matrices, converted from spherical to cartesian coordinates and started plotting the results:
-[IMAGE]
+<img src="First-Scan.png" width="512">
 
 I was excited that the collection and plotting had gone so smoothly however the results seem pretty noisy and I certainly wouldn't want to drive anything with them as my map. It's possible to get a sense of what the sensor scanned in a side by side comparison as you can see below, but that's not what I'm going for. So I set about trying to clean up the data and get those outliers in check.
-[IMAGE]
+<img src="Side-by-side-comparison.png" width="512">
 
 Just by setting a threshold on the ro values you get something a bit more workable:
-[IMAGE]
+<img src="scan2-sph-max80.png" width="512">
 
 Then realizing I was missing a Matlab toolbox filter signals I extended my Python code using numpy, scipy, and matplotlib to smooth and graph the scan data after reading it in (code included at the end). The smoothing function was based off of a scipy cookbook example which in my case seems to have smoothed the data out beyond recognition:
-[IMAGE]
+<img src="Too-smooth.png" width="512">
 
 To try things out without having to scan data in each run I moved back to Matlab where I tried to average out the scan data by comparing each point to the mean of the point to the left and right of it and if it was greater then setting it to the mean if not leaving it as is:
 ```matlab
@@ -66,7 +67,7 @@ for j = 1:21
 end
 ```
 The result is a little cleaner but still rather spiky overall and difficult to decipher:
-[IMAGE]
+<img src="Better-but-not-good.png" width="512">
 
 I'll wrap up this first log entry here as I continue to search for a way to clean up the plotting of the scan data. Have any ideas? Feel free to let me know at [playervm@pm.me](mailto:playervm@pm.me) or on Discord PlayerVMachine#7577
 
